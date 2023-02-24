@@ -1,4 +1,4 @@
-# Alias functions for autocomplete project traversal
+# Project traversal with autocomplete
 labd() { cd ~/labdigital-repo/$1; }
 compctl -W ~/labdigital-repo/ -/ labd
 project() { cd ~/projects-repo/$1; }
@@ -12,6 +12,7 @@ syspip3() {
     PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
 }
 
+# Dotfiles (bare) git repo commands
 dtf () {
   git --git-dir="$HOME/.cfg/" --work-tree="$HOME" "$@"
 }
