@@ -5,9 +5,6 @@ export PATH="$PNPM_HOME:$PATH"
 
 export PATH="/usr/local/sbin:$PATH"
 
-# Can the following line be deleted somehow?
-export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
-
 export PATH="$(pyenv root)/shims:$PATH"
 
 # Uncomment the following line to use case-sensitive completion.
