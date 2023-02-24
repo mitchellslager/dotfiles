@@ -3,9 +3,6 @@ export PNPM_HOME="/Users/mitchell/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
-# Agradi
-export GITLAB_ACCESS_TOKEN=glpat-N578tFJTfrxL_xBLtdPB
-
 export PATH="/usr/local/sbin:$PATH"
 
 # Can the following line be deleted somehow?
