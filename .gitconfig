@@ -1,25 +1,25 @@
 [user]
-    name = Mitchell Slager
-    email = mslager92@gmail.com
+  name = Mitchell Slager
+  email = mslager92@gmail.com
 [branch]
-    autoSetupRebase = always
+  autoSetupRebase = always
 [rebase]
-    autoStash = true
+  autoStash = true
 [pull]
-    rebase = true
+  rebase = true
 [github]
-    user = mitchellslager
+  user = mitchellslager
 [commit]
-	gpgsign = false
+  gpgsign = false
 [alias]
-	wip = !git add -A && git commit -m "WIP"
-    undo = reset HEAD^ --mixed
-    changelog = !"git log --oneline $(git describe --tags --abbrev=0)...master | awk '{$1=\" -\"; print $0}'" # prints a list of commits
-    changes = !"git changelog | pbcopy && code CHANGES" # paste the list of commits to the `CHANGES` file in VS Code editor
-    changelogmain = !"git log --oneline $(git describe --tags --abbrev=0)...main | awk '{$1=\" -\"; print $0}'"
-    changesmain = !"git changelogmain | pbcopy && code CHANGES"
+  wip = !git add -A && git commit -m "WIP"
+  undo = reset HEAD^ --mixed
+  changelog = !"git log --oneline $(git describe --tags --abbrev=0)...master | awk '{$1=\" -\"; print $0}'" # prints a list of commits
+  changes = !"git changelog | pbcopy && code CHANGES" # paste the list of commits to the `CHANGES` file in VS Code editor
+  changelogmain = !"git log --oneline $(git describe --tags --abbrev=0)...main | awk '{$1=\" -\"; print $0}'"
+  changesmain = !"git changelogmain | pbcopy && code CHANGES"
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [core]
-	editor = code --wait
-    excludesfile = ~/.gitignore_global
+  editor = code --wait
+  excludesfile = ~/.gitignore_global
