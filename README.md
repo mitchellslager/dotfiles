@@ -6,7 +6,7 @@
 
 Personally I really like the advantage of not having to deal with symlinks and external tooling at all. I can just track the original files in a “bare” repository and push it to Github. Using a custom command (`dtf`) makes this very easy to do.
 
-# What does it include?
+## What does it include?
 
 Configurations for the following tools:
 
@@ -28,9 +28,9 @@ dotfiles
 └── .tool-versions
 ```
 
-# **How does it work?**
+## How does it work?
 
-## **Maintaining dotfiles**
+### Maintaining dotfiles
 
 Please read the original article for a detailed walkthrough. I did change around a few things, like the dotfiles directory and command name. But the core idea and method is well explained.
 
@@ -47,7 +47,7 @@ dtf commit -m "Add gitconfig"
 dtf push
 ```
 
-## **Installing dotfiles on new machine**
+### Installing dotfiles on new machine
 
 Because the dotfiles maintain their conventional location, I would assume that you can just clone this repo into `$HOME` like:
 
