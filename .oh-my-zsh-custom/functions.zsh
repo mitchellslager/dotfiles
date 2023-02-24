@@ -14,5 +14,5 @@ syspip3() {
 
 # Dotfiles (bare) git repo commands
 dtf () {
-  git --git-dir="$HOME/.cfg/" --work-tree="$HOME" "$@"
+  git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME" "$@"
 }
