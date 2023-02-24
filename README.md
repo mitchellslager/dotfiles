@@ -34,7 +34,7 @@ dotfiles
 
 Please read the original article for a detailed walkthrough. I did change around a few things, like the dotfiles directory and command name. But the core idea and method is well explained.
 
-[Dotfiles: Best Way to Store in a Bare Git Repository](https://www.notion.so/Dotfiles-Best-Way-to-Store-in-a-Bare-Git-Repository-1ea039aebdc9443a993a947492fdca44)
+[Dotfiles: Best Way to Store in a Bare Git Repository](https://www.atlassian.com/git/tutorials/dotfiles)
 
 Files that are not explicitly tracked will not be shown. This is so that when you type `dtf status` and other commands later, files you are not interested in tracking will not show up as `untracked`. Use the custom `dtf` command to add or update dotfiles:
 
