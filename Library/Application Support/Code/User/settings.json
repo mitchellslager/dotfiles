@@ -1,0 +1,58 @@
+{
+	"editor.fontFamily": "SFMono-Regular",
+	"editor.minimap.enabled": false,
+	"editor.formatOnSave": true,
+	"workbench.colorTheme": "Ayu Mirage Bordered",
+	"workbench.iconTheme": "vs-seti",
+	"files.trimTrailingWhitespace": true,
+	"terminal.external.osxExec": "iTerm.app",
+	"git.enableSmartCommit": true,
+	"files.associations": {
+		"**/*.html": "html",
+		"**/templates/**/*.html": "django-html",
+		"**/templates/**/*": "django-txt",
+		"**/requirements{/**,*}.{txt,in}": "pip-requirements",
+		"*.svg": "xml"
+	},
+	"emmet.includeLanguages": {
+		"django-html": "html",
+		"javascript": "jsx",
+		"postcss": "css"
+	},
+	"[django-html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter-notebook"
+	},
+	"prettier.useTabs": true,
+	"liveshare.presence": true,
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.wordBasedSuggestions": false,
+	"editor.snippetSuggestions": "none",
+	"editor.suggestSelection": "first",
+	"git.confirmSync": false,
+	"editor.guides.indentation": true,
+	"[python]": {
+		"editor.formatOnType": true
+	}
+}
